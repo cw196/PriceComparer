@@ -1,0 +1,48 @@
+application: my-second-965
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+- url: /visitedList
+  script: 548/visitedList.php
+- url: /wishList
+  script: 548/wishList.php
+- url: /LoginCustomer
+  script: 550/Handlers550/customer/LoginCustomer.php
+- url: /CustomerLocationUpdate
+  script: 550/Handlers550/customer/CustomerLocationUpdate.php
+- url: /upload
+  script: 550/upload.php
+- url: /register
+  script: 550/register.php
+- url: /sellerInfroApi
+  script: 550/Handlers550/customer/sellerInfroApi.php
+- url: /insert
+  script: 550/insert.php
+- url: /Login
+  script: 550/Login.php
+- url: /create550
+  script: 550/create550.php
+- url: /SellerHandler
+  script: /550/Handlers550/seller/SellerHandler.php
+- url: /CustomerLocationHandler
+  script: /550/Handlers550/seller/CustomerLocationHandler.php
+- url: /App_store
+  script: 550/App_store.php
+- url: /HomePage
+  script: HomePage.php
+- url: /images
+  static_dir: images
+- url: /JB
+  script: JB_getData.php
+- url: /PB
+  script: PB_getData.php
+- url: /own_database
+  script: own_database.php
+- url: /handler
+  script: handler.php
+- url: /search
+  script: search.php
